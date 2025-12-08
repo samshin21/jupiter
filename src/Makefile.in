@@ -11,6 +11,10 @@ prefix		= @prefix@
 exec_prefix 	= @exec_prefix@
 bindir		= @bindir@
 
+# VPATH-related substitution variables
+srcdir		= @srcdir@
+VPATH		= @srcdir@
+
 all: jupiter
 
 CXXFLAGS = -g -O0
